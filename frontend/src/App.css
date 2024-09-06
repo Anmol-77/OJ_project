@@ -1,0 +1,158 @@
+body {
+  /* background-image: url('https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg'); */
+  background-size: cover;
+  background-position: center;
+}
+/* App.css */
+
+/* NavBar styles */
+.navbar {
+  background-color: #333; /* Background color of the navbar */
+  padding: 10px; /* Space around the navbar */
+}
+
+.navbar-list {
+  list-style: none; /* Remove default list styling */
+  display: flex; /* Align items horizontally */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.navbar-item {
+  margin-right: 20px; /* Space between items */
+}
+
+.navbar-link {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 16px; /* Font size */
+}
+
+.navbar-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.active {
+  font-weight: bold; /* Highlight active link */
+}
+
+/* App.css or ProblemSet.css */
+
+.all_problems {
+  max-width: 800px; /* Set a max width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding inside the container */
+  background-color: #f9f9f9; /* Set a background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.all_problems h1 {
+  text-align: center; /* Center-align the title */
+  color: #333; /* Set the text color */
+  margin-bottom: 20px; /* Add space below the title */
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.all_problems ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+}
+
+.all_problems li {
+  margin-bottom: 20px; /* Space between items */
+  padding: 15px; /* Add padding inside each list item */
+  border: 1px solid #ddd; /* Border around each item */
+  border-radius: 4px; /* Rounded corners for list items */
+  background-color: #fff; /* Background color for list items */
+}
+
+.all_problems h2 {
+  margin: 0; /* Remove default margin */
+  color: #060b10; /* Set a color for the title */
+}
+
+.all_problems p {
+  margin: 10px 0; /* Add margin above and below the paragraph */
+  color: #666; /* Set a color for the description */
+}
+
+.style_button{
+  background-color: #333; 
+  padding: 6px 8px;
+  color: #ddd;
+  border-radius: 4px;
+}
+/* .style_solve{
+  color: #f7f0f0;
+} */
+
+.solve_problem_container {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+}
+
+.problem_statement, .problem_compiler {
+  flex: 1; /* Each side takes up equal space */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.problem_statement {
+  background-color: #f5f5f5; /* Light background color */
+  border-right: 1px solid #ddd; /* Divider between two sections */
+}
+
+.problem_compiler {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff; /* White background for compiler */
+}
+
+/* Style for the input area */
+.input-area {
+  width: 45%;
+  /* height: 100px; Adjust the height as needed */
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: 'Fira code', 'Fira Mono', monospace;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  background-color: #f7fafc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the run button */
+.run-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #f97316;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.run-button:hover {
+  background-color: #ea580c;
+}
+
+.run-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.5);
+}
+
+.run-button svg {
+  margin-right: 8px;
+}
+
+
+
